@@ -16,7 +16,7 @@ body, h1, h2, h3, p, ul, li, a, button, input {
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,7 +91,20 @@ body, h1, h2, h3, p, ul, li, a, button, input {
 .search-bar .search-btn:hover {
     background-color: #008c9e;
 }
-
+#main{
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+}
+/* Banner */
+#banner{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#banner img{
+    margin: auto;
+}
 /* Courses Section */
 .courses {
     padding: 50px 0;
@@ -113,10 +126,12 @@ body, h1, h2, h3, p, ul, li, a, button, input {
 .course-card {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
+    margin: 10px 15px;
     border-radius: 8px;
     padding: 15px;
     width: 30%;
     text-align: center;
+    height: 400px;
 }
 
 .course-card img {
@@ -124,9 +139,10 @@ body, h1, h2, h3, p, ul, li, a, button, input {
     border-radius: 8px;
     margin-bottom: 10px;
     height: 60%;
+    object-fit: cover;
 }
 
-.course-card:hover{
+.course-card img:hover{
     opacity: 70%;
 }
 
